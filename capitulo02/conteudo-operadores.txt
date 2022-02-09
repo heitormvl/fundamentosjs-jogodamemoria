@@ -1,0 +1,17 @@
+- Operadores Aritméticos
+    - Adição: +
+    - Subtração: -
+    - Multiplicação: *
+    - Divisão: /
+    - Resto da Divisão: %
+    - Exponenciação: **
+
+- Comparação
+    - Menor que: <
+    - Maior que: >
+    - Igual a: ===
+    - Diferente de: !==
+    - Menor ou igual a: <=
+    - Maior ou igual a: >=
+    - Ou: () || ()
+    - E: () && ()

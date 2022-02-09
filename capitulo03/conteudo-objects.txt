@@ -1,0 +1,16 @@
+const pessoa = {
+    id: "0011AABB"
+    nome: "José Bezerra"
+    idade: 30
+    dataNascimento: new Date(2000, 6, 1)
+}
+
+para usar os valores:
+    pessoa.id, pessoa.nome
+ou
+    pessoa["id"], pessoa["nome"]
+
+para criar valores:
+    pessoa.nomeDaMae = "Maria"
+ou
+    pessoa[nomeDaMae] = "Maria"
