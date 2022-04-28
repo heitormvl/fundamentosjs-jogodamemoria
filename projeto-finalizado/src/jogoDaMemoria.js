@@ -6,12 +6,12 @@ class JogoDaMemoria {
         this.tela = tela
         this.util = util
 
-        this.iconePadrao = './arquivos/question.png'
+        this.iconePadrao = './arquivos/card.webp'
         this.heroisIniciais = [
-            { img: './arquivos/batman.png', nome: 'batman' },
-            { img: './arquivos/flash.png', nome: 'flash' },
-            { img: './arquivos/greenLantern.png', nome: 'greenLantern' },
-            { img: './arquivos/superman.png', nome: 'superman' },
+            { img: './arquivos/panda.webp', nome: 'panda' },
+            { img: './arquivos/cao.webp', nome: 'cao' },
+            { img: './arquivos/gato.webp', nome: 'gato' },
+            { img: './arquivos/touro.webp', nome: 'tour' },
         ]
 
         this.heroisEscondidos = []
