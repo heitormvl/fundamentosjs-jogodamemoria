@@ -22,7 +22,7 @@ class Tela {
     static obterCodigoHtml(item) {
        return `
         <div class="col-md-3 col-sm-3 col-xs-2">
-            <div class="card" style="width:85%;margin-left:auto;margin-right:auto;background-color:transparent;border:0px;" onclick="window.verificarSelecao('${item.id}', '${item.nome}')">
+            <div class="card" style="width:70%;margin-left:auto;margin-right:auto;background-color:transparent;border:0px;" onclick="window.verificarSelecao('${item.id}', '${item.nome}')">
                 <img name="${item.nome}" src="${item.img}" class="card-img-top" alt="..." />
             </div>
             <br />
@@ -52,7 +52,7 @@ class Tela {
         }
 
         elemento.classList.remove(CLASSE_INVISIVEL)
-        await util.timeout(1000)
+        await util.timeout(2000)
         elemento.classList.add(CLASSE_INVISIVEL)
 
     }
